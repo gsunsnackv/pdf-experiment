@@ -1,0 +1,22 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdf2html": "^2.5.0",
+    "pdf2json": "^1.1.8",
+    "pdfreader": "^1.0.6",
+    "pdftohtmljs": "^0.5.3"
+  },
+  "scripts": {
+    "pdf-parse": "node pdf-parse.js",
+    "pdfreader": "node pdfreader.js",
+    "pdftohtmljs": "node pdftohtmljs.js",
+    "pdf2html": "node pdf2html.js",
+    "pdf2json": "node pdf2json.js",
+    "my-converter": "node my-converter.js",
+    "pdfjs": "node pdfjs.js"
+  }
+}
